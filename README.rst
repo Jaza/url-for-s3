@@ -14,7 +14,8 @@ Example
 Will return:
 https://my-cool-foobar-bucket.s3.amazonaws.com/static/pics/logo.png
 
-Note: this function assumes that the given resource exists on S3
-and is publicly accessible.
+Note: this function assumes that the given resource exists on S3 and is publicly accessible.
 
 Based loosely on Flask-S3's `url_for()`.
+
+For a complete, working Flask app that demonstrates url-for-s3 in action, have a look at `flask-s3-save-example <https://github.com/Jaza/flask-s3-save-example>`_.
