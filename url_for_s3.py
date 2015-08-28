@@ -1,4 +1,4 @@
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 
 def url_for_s3(endpoint, bucket_name, bucket_domain=None, scheme='',
